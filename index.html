@@ -10,7 +10,50 @@
 </head>
 
 <body>
+    <div class="container">
+      <h1>Address book</h1>
 
-</body>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a contact:</h2>
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="new-first-name">First name</label>
+              <input type="text" class="form-control" id="new-first-name">
+            </div>
+            <div class="form-group">
+              <label for="new-last-name">Last name</label>
+              <input type="text" class="form-control" id="new-last-name">
+            </div>
+            <div class="form-group">
+              <label for="new-number">Phone Number</label>
+              <input type="text" class="form-control" id="new-number">
+            </div>
+            <div class="form-group">
+              <label for="new-email">Email</label>
+              <input type="text" class="form-control" id="new-email">
+            </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+
+          <div id="contactsList">
+            <div id="contact">
+              <p id="name"></p>
+              <span id="moreInfo">
+                <p id="number"></p>
+                <p id="email"></p>
+                <button type="button" id="delete">Delete</button>
+              </span>
+            </div>
+
+            <!-- <h2>Contacts:</h2>
+            <ul id="contacts">
+
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 
 </html>

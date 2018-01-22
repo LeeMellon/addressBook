@@ -1,0 +1,11 @@
+.contact {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#moreInfo {
+  display: none;
+}
+ #contactsList{
+   color: black;
+ }
